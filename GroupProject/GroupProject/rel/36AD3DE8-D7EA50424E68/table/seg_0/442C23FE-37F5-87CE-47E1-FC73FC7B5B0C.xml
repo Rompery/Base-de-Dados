@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="442C23FE-37F5-87CE-47E1-FC73FC7B5B0C" name="Relation_3">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-25 17:45:01 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Genre/themes_genre_ID" id="FF556166-F7B2-44AB-394A-D2ACC157FD72">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-25 17:45:01 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BCDE633-045F-BCB9-A1FD-4332E5EBE25E" referredColumn="B7F63990-4B9A-15EF-DE2A-7F2F95C616D9"/>
+</associations>
+</Column>
+<Column name="Games_game_ID" id="856F91B2-F7FE-A715-B20E-DD8493AEDA24">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-25 17:45:01 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3409CB85-3007-5817-0813-E6F946935E05" referredColumn="78F2F6F1-74FD-497E-0AC8-E6DA7D497247"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A259593-0EF1-E7CB-A2D5-A752118A2CB2" name="Relation_3_PK">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-25 17:45:01 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF556166-F7B2-44AB-394A-D2ACC157FD72"/>
+<colUsage columnID="856F91B2-F7FE-A715-B20E-DD8493AEDA24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF7AEAF5-E772-464B-A1B7-69BF322E285B" name="Relation_3_Genre/themes_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-25 17:45:01 UTC</createdTime>
+<generatorID>292CCEEB-95E3-BE47-BEB2-DFB5D885AD70</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF556166-F7B2-44AB-394A-D2ACC157FD72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79564C8A-AF43-DD5D-3C2C-5BB6668D4E6C" name="Relation_3_Games_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-25 17:45:01 UTC</createdTime>
+<generatorID>292CCEEB-95E3-BE47-BEB2-DFB5D885AD70</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="856F91B2-F7FE-A715-B20E-DD8493AEDA24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

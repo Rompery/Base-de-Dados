@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="772F29CD-62D4-6CF2-0B16-F299BEB15DB4" name="Games">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:22:56 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="game_ID" id="0C4BD4DD-EA37-2493-3EC0-5F4DAB41FFFF">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:23:01 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="AE81EC95-BA85-6E18-431A-03AEDCA1A3D8">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:23:22 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rls_Date" id="5D78D94B-3481-70C8-6E96-87AF0498E44A">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:23:37 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pst_review" id="99C4A584-25AE-063D-C275-180435BE27DF">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:24:02 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ngt_review" id="C4078BF1-87D2-908B-CE71-E13C47FF992F">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:24:33 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pub_ID" id="20C3972D-3FA3-6774-8151-D8A16B7F470C">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:34:00 UTC</createdTime>
+<generatorID>74E3B9E7-405D-302A-4D36-3D8B9353113D</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<referedAttribute>A299775E-96FF-45D8-CD59-AA710726869D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GS_ID" id="F5ECF4A5-7ACA-A4C3-E7F5-16AB13F496B2">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:34:34 UTC</createdTime>
+<generatorID>85E7DA3A-5B41-E309-CDCF-E44CBB715B2F</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<referedAttribute>C5FD5CAC-0045-23E1-8932-DA9F5812FA93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0CF3396-F2EB-47E0-0D66-B6ED56FF7922" name="Games PK">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:23:20 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C4BD4DD-EA37-2493-3EC0-5F4DAB41FFFF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

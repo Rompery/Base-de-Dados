@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3740FF6-D06A-A9CE-ECEB-13FA410F8556" containerWithKeyObject="88D4824A-F37F-ED29-926C-278BCD5C4956" localFKIndex="F8C06D06-E569-0A85-F66C-DB8D5D8BF7C8" name="Games_Publisher_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>74E3B9E7-405D-302A-4D36-3D8B9353113D</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<referredTableLongName>Publisher</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8614C377-BCBC-90F6-B56F-A716134FFBA6</referredTableID>
+<keyObject>3854CE56-9955-538E-72CC-1050843C619B</keyObject>
+<referredKeyID>3854CE56-9955-538E-72CC-1050843C619B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Pub_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

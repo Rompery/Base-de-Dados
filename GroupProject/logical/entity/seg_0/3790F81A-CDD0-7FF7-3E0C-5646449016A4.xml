@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3790F81A-CDD0-7FF7-3E0C-5646449016A4" name="Themes/genre">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:31:35 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Genre_ID" id="0EF8D215-D535-DBBC-0340-10FA7F4AC4A9">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:31:54 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genre" id="BD69742C-2075-C41E-1B83-A04DFC9664FE">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:32:15 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0569111D-BC3D-D1E7-B98D-10E4347E1D2A" name="Themes/genre PK">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:32:14 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0EF8D215-D535-DBBC-0340-10FA7F4AC4A9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

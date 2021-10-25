@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88D4824A-F37F-ED29-926C-278BCD5C4956" name="Games">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>772F29CD-62D4-6CF2-0B16-F299BEB15DB4</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="game_ID" id="A7E4C202-25E9-5CD0-03E1-C19E80B5608F">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>0C4BD4DD-EA37-2493-3EC0-5F4DAB41FFFF</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="BC2DED7F-E99C-6198-EDFF-BBE1F199A5EA">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>AE81EC95-BA85-6E18-431A-03AEDCA1A3D8</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rls_Date" id="33E7CD37-C166-00D5-ED3D-86081033E480">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>5D78D94B-3481-70C8-6E96-87AF0498E44A</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pst_review" id="CE219306-71CA-45A3-8168-D1AC8C2573C3">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>99C4A584-25AE-063D-C275-180435BE27DF</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ngt_review" id="92069843-3BBD-3D89-67C9-CB0F012B1076">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>C4078BF1-87D2-908B-CE71-E13C47FF992F</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Publisher_Pub_ID" id="4F4BB7C8-D511-9336-5D4D-B46120733AC3">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>20C3972D-3FA3-6774-8151-D8A16B7F470C</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3740FF6-D06A-A9CE-ECEB-13FA410F8556" referredColumn="A6C215AB-B604-D722-8311-3CD564447D1E"/>
+</associations>
+</Column>
+<Column name="Game_Studio_GS_ID" id="76AB49F4-8490-D450-FE00-E736510C30F4">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>F5ECF4A5-7ACA-A4C3-E7F5-16AB13F496B2</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45842814-E40B-7E99-2B07-087A6743BEF4" referredColumn="DCAB601D-746F-2839-DFEF-5FD0DA66877E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE552BAF-BC68-CA72-E14F-F34D759131D5" name="Games_PK">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>A0CF3396-F2EB-47E0-0D66-B6ED56FF7922</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7E4C202-25E9-5CD0-03E1-C19E80B5608F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8C06D06-E569-0A85-F66C-DB8D5D8BF7C8" name="Games_Publisher_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>74E3B9E7-405D-302A-4D36-3D8B9353113D</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F4BB7C8-D511-9336-5D4D-B46120733AC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="576F7C13-55AC-5567-4A88-CA2DBE760C8F" name="Games_Game_Studio_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>85E7DA3A-5B41-E309-CDCF-E44CBB715B2F</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76AB49F4-8490-D450-FE00-E736510C30F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

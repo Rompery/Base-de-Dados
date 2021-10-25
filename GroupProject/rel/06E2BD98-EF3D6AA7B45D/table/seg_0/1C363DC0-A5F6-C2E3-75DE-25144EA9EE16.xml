@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C363DC0-A5F6-C2E3-75DE-25144EA9EE16" name="Game_Studio">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>EAB1DD4A-C9D0-8283-0A16-25F724064C00</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GS_ID" id="DCAB601D-746F-2839-DFEF-5FD0DA66877E">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>C5FD5CAC-0045-23E1-8932-DA9F5812FA93</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="722F8CFC-8492-5EB0-7AA3-CD6246E7C53D">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>9BEF579F-866F-BD78-E891-7FBAB749320B</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="local" id="357BC25F-90C2-BE59-5A0A-9089BFCDC8D5">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>B03C232D-BD4B-7002-EC1F-F320F3B10175</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>180</dataTypeSize>
+<ownDataTypeParameters>180,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="D0F0A192-13C7-0A90-D082-8DA93CED8399">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>A73D858F-B8AD-C2FC-7D5D-490E632941EA</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="EE1A6023-2AA1-C043-AA74-8BF64C161CB1">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>AB95D87F-F924-7596-81C6-173217FE26B0</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C200F13A-85AD-385D-ED23-D92885989505" name="Game_Studio_PK">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:35:09 UTC</createdTime>
+<generatorID>988D2212-492B-B42F-56D0-00C9F9111CE2</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCAB601D-746F-2839-DFEF-5FD0DA66877E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="477C0248-48BB-9139-83C6-9E3081F5C599" name="Game_Store">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-25 17:36:52 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="game_ID" id="2B7CC98D-1140-66AA-457F-270EEEF10B3A">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-25 17:38:41 UTC</createdTime>
+<generatorID>1881A1A5-6ECC-C442-E72C-F3B4561AC06C</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+</engineerTo>
+<referedAttribute>F92CBC19-E091-5D88-D8CE-857F9DACDFCA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OnStr_ID" id="A49E99B8-984B-BA46-4E42-D6F648509E3E">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-25 17:38:54 UTC</createdTime>
+<generatorID>DC0B251F-CE42-1120-88FB-6EE1CA793631</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+</engineerTo>
+<referedAttribute>99D2E160-9584-B7CA-F078-E473C4DBBC70</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cost" id="85DD50DC-7948-142A-2914-9944F2047EA3">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-25 17:37:17 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price_date" id="1C4C77B3-D74E-1B0D-779E-E28908CEDD65">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-25 17:38:18 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5545C07-A9C2-0D3F-4E57-87BBCB55BB21" name="primary key">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-25 17:41:45 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>2B7CC98D-1140-66AA-457F-270EEEF10B3A,A49E99B8-984B-BA46-4E42-D6F648509E3E</newElementsIDs>
+<usedAttributes>
+<attributeRef>2B7CC98D-1140-66AA-457F-270EEEF10B3A</attributeRef>
+<attributeRef>A49E99B8-984B-BA46-4E42-D6F648509E3E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

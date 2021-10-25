@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0BCDE633-045F-BCB9-A1FD-4332E5EBE25E" containerWithKeyObject="442C23FE-37F5-87CE-47E1-FC73FC7B5B0C" localFKIndex="EF7AEAF5-E772-464B-A1B7-69BF322E285B" name="Relation_3_Genre/themes_FK">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-25 17:45:01 UTC</createdTime>
+<generatorID>292CCEEB-95E3-BE47-BEB2-DFB5D885AD70</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<referredTableLongName>Genre/themes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8C88B9CD-969C-07B2-1232-8DAA5E956E9F</referredTableID>
+<keyObject>029BC87B-4CD8-9A42-7BEF-D3984E46B3CA</keyObject>
+<referredKeyID>029BC87B-4CD8-9A42-7BEF-D3984E46B3CA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>genre_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

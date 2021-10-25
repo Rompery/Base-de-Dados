@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F759ED95-99DF-49F8-E520-F07F16AB3214" name="Publisher">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:25:09 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Pub_ID" id="A299775E-96FF-45D8-CD59-AA710726869D">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:25:15 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="2D11B248-421E-16FD-8569-7E2092F130B0">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:25:32 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Local" id="A0A0BBA2-E7F3-72FA-ABB5-CCB64C6D7836">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:25:47 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>180</dataTypeSize>
+<ownDataTypeParameters>180,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="9AC69EE4-9DDD-E287-4C28-2C48E93C2C42">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:28:21 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="3A7C372A-0D75-D7D8-E16F-3D4FC8300045">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:28:56 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D3946D0-549D-9C54-6CED-C43445056FE0" name="Publisher PK">
+<createdBy>ricar</createdBy>
+<createdTime>2021-10-24 14:25:31 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<engineerTo>
+<item key="06E2BD98-6DCD-A8DB-BA4A-EF3D6AA7B45D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A299775E-96FF-45D8-CD59-AA710726869D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
