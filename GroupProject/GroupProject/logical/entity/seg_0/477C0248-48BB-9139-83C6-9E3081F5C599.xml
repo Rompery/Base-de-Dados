@@ -4,7 +4,7 @@
 <createdTime>2021-10-25 17:36:52 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <generatorID>1881A1A5-6ECC-C442-E72C-F3B4561AC06C</generatorID>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
 </engineerTo>
 <referedAttribute>F92CBC19-E091-5D88-D8CE-857F9DACDFCA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -36,7 +36,7 @@
 <generatorID>DC0B251F-CE42-1120-88FB-6EE1CA793631</generatorID>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
 </engineerTo>
 <referedAttribute>99D2E160-9584-B7CA-F078-E473C4DBBC70</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -50,13 +50,13 @@
 <createdTime>2021-10-25 17:37:17 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+<domain>F4494422-2B6F-E2BA-676D-907CA1F25BC8</domain>
 <ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="price_date" id="1C4C77B3-D74E-1B0D-779E-E28908CEDD65">
@@ -64,7 +64,7 @@
 <createdTime>2021-10-25 17:38:18 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -78,10 +78,10 @@
 <createdTime>2021-10-25 17:41:45 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>2B7CC98D-1140-66AA-457F-270EEEF10B3A,A49E99B8-984B-BA46-4E42-D6F648509E3E</newElementsIDs>
+<newElementsIDs>1881A1A5-6ECC-C442-E72C-F3B4561AC06C,DC0B251F-CE42-1120-88FB-6EE1CA793631</newElementsIDs>
 <usedAttributes>
 <attributeRef>2B7CC98D-1140-66AA-457F-270EEEF10B3A</attributeRef>
 <attributeRef>A49E99B8-984B-BA46-4E42-D6F648509E3E</attributeRef>

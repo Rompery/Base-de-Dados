@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1D89F89-596A-77EC-0F10-652405EC96D3" name="Game_Store">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 11:41:49 UTC</createdTime>
+<generatorID>477C0248-48BB-9139-83C6-9E3081F5C599</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Game_game_ID" id="52D8BFA6-7E72-ECE9-C84D-E67D2B1CE838">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 11:41:49 UTC</createdTime>
+<generatorID>2B7CC98D-1140-66AA-457F-270EEEF10B3A</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C2DF3E7-D2C8-EEC4-68DD-035F4F08C8D9" referredColumn="43C776B0-C7BF-C51A-04EA-07BB826B6A54"/>
+</associations>
+</Column>
+<Column name="Online_Store_OnStr_ID" id="36D80238-41FB-43CE-FB15-43DDDE267ED9">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 11:41:49 UTC</createdTime>
+<generatorID>A49E99B8-984B-BA46-4E42-D6F648509E3E</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13A3B39C-8ACD-B1CA-17AC-70E04D5889F7" referredColumn="FB379E28-E25B-725E-4204-D6B41FD5CB78"/>
+</associations>
+</Column>
+<Column name="cost" id="C160A9D3-151F-4C5A-2831-F9BC8F6E6747">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 11:41:49 UTC</createdTime>
+<generatorID>85DD50DC-7948-142A-2914-9944F2047EA3</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<domain>F4494422-2B6F-E2BA-676D-907CA1F25BC8</domain>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price_date" id="BB705CC6-119F-B5B2-2ED1-774B48EB2AAB">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 11:41:49 UTC</createdTime>
+<generatorID>1C4C77B3-D74E-1B0D-779E-E28908CEDD65</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E1139F4-D8C2-1672-6FF3-ACF5D22878C2" name="Game_Store_PK">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 11:41:49 UTC</createdTime>
+<generatorID>E5545C07-A9C2-0D3F-4E57-87BBCB55BB21</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52D8BFA6-7E72-ECE9-C84D-E67D2B1CE838"/>
+<colUsage columnID="36D80238-41FB-43CE-FB15-43DDDE267ED9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85D9E516-10EC-0D53-3418-37A80E69965D" name="Game_Store_Game_FK">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 11:41:49 UTC</createdTime>
+<generatorID>1881A1A5-6ECC-C442-E72C-F3B4561AC06C</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52D8BFA6-7E72-ECE9-C84D-E67D2B1CE838"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB061904-F021-69E3-D5C8-33566C3EE6C0" name="Game_Store_Online_Store_FK">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 11:41:49 UTC</createdTime>
+<generatorID>DC0B251F-CE42-1120-88FB-6EE1CA793631</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36D80238-41FB-43CE-FB15-43DDDE267ED9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

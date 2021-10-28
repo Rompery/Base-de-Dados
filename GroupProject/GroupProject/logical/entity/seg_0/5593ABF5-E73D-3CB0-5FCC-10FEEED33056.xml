@@ -4,7 +4,7 @@
 <createdTime>2021-10-25 17:32:56 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
+<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2021-10-25 17:33:05 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
+<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2021-10-25 17:33:18 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
+<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,19 +41,17 @@
 <dataTypeSize>6000</dataTypeSize>
 <ownDataTypeParameters>6000,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Rating" id="D6AA9CB7-02E3-E0A8-2AEE-3E7480FD11AE">
-<createdBy>ricar</createdBy>
-<createdTime>2021-10-25 17:33:33 UTC</createdTime>
-<comment><![CDATA[ex: 5/5, 85/100, thumbs up, etc.]]></comment>
+<Attribute name="rating" id="0734E1BC-92F3-159F-CEFC-7423A3E10265">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 11:40:49 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
+<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>414E5865-53D6-5D8F-7E53-7A77EF570C8B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="game_ID" id="606DD06B-42AF-7E5D-7E6E-F1A5AD5F0F9A">
 <createdBy>1705258</createdBy>
@@ -61,7 +59,7 @@
 <generatorID>4BD0281A-F113-C73D-B90C-E3ADF2DD34EE</generatorID>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
+<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
 </engineerTo>
 <referedAttribute>F92CBC19-E091-5D88-D8CE-857F9DACDFCA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -77,7 +75,7 @@
 <createdTime>2021-10-25 17:33:17 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
+<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
