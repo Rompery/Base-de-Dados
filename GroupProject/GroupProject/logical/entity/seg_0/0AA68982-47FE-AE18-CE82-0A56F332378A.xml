@@ -4,7 +4,7 @@
 <createdTime>2021-10-25 11:51:06 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2021-10-25 11:51:11 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2021-10-25 11:51:25 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,7 +46,7 @@
 <createdTime>2021-10-25 11:51:40 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,7 @@
 <createdTime>2021-10-25 11:51:57 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -72,7 +72,7 @@
 <createdTime>2021-10-25 11:52:15 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -81,22 +81,6 @@
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="review_ID" id="163258C4-7C27-76CF-28C0-E72C62A48C45">
-<createdBy>ricar</createdBy>
-<createdTime>2021-10-25 17:36:18 UTC</createdTime>
-<generatorID>4BD0281A-F113-C73D-B90C-E3ADF2DD34EE</generatorID>
-<ownerDesignName>GroupProject</ownerDesignName>
-<engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>FA8C3F97-3A19-C212-A191-D8646F08532D</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="102EB021-1DDD-4E36-36CC-FCDFA3790E91" name="Games PK">
@@ -104,7 +88,7 @@
 <createdTime>2021-10-25 11:51:24 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

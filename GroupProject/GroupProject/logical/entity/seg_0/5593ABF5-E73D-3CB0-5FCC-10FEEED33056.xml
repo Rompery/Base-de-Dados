@@ -4,7 +4,7 @@
 <createdTime>2021-10-25 17:32:56 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2021-10-25 17:33:05 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2021-10-25 17:33:18 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +47,7 @@
 <comment><![CDATA[ex: 5/5, 85/100, thumbs up, etc.]]></comment>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -55,19 +55,20 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="rating_value" id="1E5E2472-8555-D57E-28F4-51CE693535EF">
-<createdBy>ricar</createdBy>
-<createdTime>2021-10-25 17:34:41 UTC</createdTime>
-<comment><![CDATA[values: positive,negative,N/A]]></comment>
+<Attribute name="game_ID" id="606DD06B-42AF-7E5D-7E6E-F1A5AD5F0F9A">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 09:37:44 UTC</createdTime>
+<generatorID>4BD0281A-F113-C73D-B90C-E3ADF2DD34EE</generatorID>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
 </engineerTo>
+<referedAttribute>F92CBC19-E091-5D88-D8CE-857F9DACDFCA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -76,7 +77,7 @@
 <createdTime>2021-10-25 17:33:17 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="36AD3DE8-0AD4-B780-0310-D7EA50424E68" value="true"/>
+<item key="0638049F-3DC7-4B1B-D452-0DFEDD4D4A3D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

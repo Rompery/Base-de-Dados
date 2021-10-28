@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D316ED6-3725-4004-50EA-2B6631388277" name="Relation_3">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 09:37:51 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Genre/themes_genre_ID" id="C6EB3A61-D787-7EFD-4A60-DF4F56103E00">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 09:37:51 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="950D4460-A0A6-1850-B3DA-DE00EE88E13D" referredColumn="54B61526-CBEB-7C54-3FAD-5CB3CAC77002"/>
+</associations>
+</Column>
+<Column name="Games_game_ID" id="30DD4932-CBAE-45FC-8F7C-F655A00A7A25">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 09:37:51 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64ED3029-14DF-8818-F5F9-FEEB9B7280B8" referredColumn="4379995C-1D56-1B14-4A50-A91B2F7A5FD3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A907DF77-5982-33C6-B1F8-695CEF686677" name="Relation_3_PK">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 09:37:51 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6EB3A61-D787-7EFD-4A60-DF4F56103E00"/>
+<colUsage columnID="30DD4932-CBAE-45FC-8F7C-F655A00A7A25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E585E56-D9F0-23CD-819D-A2883C032BFF" name="Relation_3_Genre/themes_FK">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 09:37:51 UTC</createdTime>
+<generatorID>292CCEEB-95E3-BE47-BEB2-DFB5D885AD70</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6EB3A61-D787-7EFD-4A60-DF4F56103E00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1ED782D-248D-B052-6D20-D4F7873BE5F3" name="Relation_3_Games_FK">
+<createdBy>1705258</createdBy>
+<createdTime>2021-10-28 09:37:51 UTC</createdTime>
+<generatorID>292CCEEB-95E3-BE47-BEB2-DFB5D885AD70</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30DD4932-CBAE-45FC-8F7C-F655A00A7A25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
