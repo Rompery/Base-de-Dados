@@ -30,7 +30,7 @@
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="OnStr_ID" id="A49E99B8-984B-BA46-4E42-D6F648509E3E">
+<Attribute name="onlineStore_ID" id="A49E99B8-984B-BA46-4E42-D6F648509E3E">
 <createdBy>ricar</createdBy>
 <createdTime>2021-10-25 17:38:54 UTC</createdTime>
 <generatorID>DC0B251F-CE42-1120-88FB-6EE1CA793631</generatorID>
@@ -77,8 +77,9 @@
 <createdBy>ricar</createdBy>
 <createdTime>2021-10-25 17:41:45 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
+<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>1881A1A5-6ECC-C442-E72C-F3B4561AC06C,DC0B251F-CE42-1120-88FB-6EE1CA793631</newElementsIDs>

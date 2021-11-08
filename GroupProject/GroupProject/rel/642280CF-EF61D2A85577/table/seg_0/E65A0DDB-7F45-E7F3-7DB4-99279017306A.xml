@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E65A0DDB-7F45-E7F3-7DB4-99279017306A" name="Success_Calculation">
+<createdBy>1705258</createdBy>
+<createdTime>2021-11-08 17:03:42 UTC</createdTime>
+<generatorID>B7C7BBD7-B289-039F-72DB-4E983309E0ED</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sc_ID" id="AFF983BB-BC12-B0CD-0DCA-7D9CF589EBA8">
+<createdBy>1705258</createdBy>
+<createdTime>2021-11-08 17:03:42 UTC</createdTime>
+<generatorID>E8D37FB7-938D-486A-BB4A-B8E85ECBC084</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Success_rate" id="ADE8DD8E-BD66-74D3-BAD1-64B85F324FC0">
+<createdBy>1705258</createdBy>
+<createdTime>2021-11-08 17:03:42 UTC</createdTime>
+<generatorID>C3905641-05D2-D6F7-4DCA-69D2EC07691B</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Game_game_ID" id="6FCDCB66-3FB3-1E67-5001-439610E31C0F">
+<createdBy>1705258</createdBy>
+<createdTime>2021-11-08 17:03:42 UTC</createdTime>
+<generatorID>A884610C-6F23-AD3C-9D32-404AB17CEF79</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1391A0F-8B66-8D76-7EF1-7124FE1DC5CE" referredColumn="43C776B0-C7BF-C51A-04EA-07BB826B6A54"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8ACEB65-DFD4-4314-DE5E-8602CB5D7888" name="Success_Calculation_PK">
+<createdBy>1705258</createdBy>
+<createdTime>2021-11-08 17:03:42 UTC</createdTime>
+<generatorID>DACB06AA-34B3-3CEA-9824-767AE95A9B1B</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFF983BB-BC12-B0CD-0DCA-7D9CF589EBA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC2225C3-46E3-E386-FF0D-668B8C8397D9" name="Success_Calculation_Game_FK">
+<createdBy>1705258</createdBy>
+<createdTime>2021-11-08 17:03:42 UTC</createdTime>
+<generatorID>EAEE0257-75C1-78A4-BDC6-FE1F6254A1E8</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FCDCB66-3FB3-1E67-5001-439610E31C0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

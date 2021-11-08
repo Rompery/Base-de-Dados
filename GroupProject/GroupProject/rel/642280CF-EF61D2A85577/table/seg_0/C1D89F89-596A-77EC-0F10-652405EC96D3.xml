@@ -24,7 +24,7 @@
 <colAssociation fkAssociation="2C2DF3E7-D2C8-EEC4-68DD-035F4F08C8D9" referredColumn="43C776B0-C7BF-C51A-04EA-07BB826B6A54"/>
 </associations>
 </Column>
-<Column name="Online_Store_OnStr_ID" id="36D80238-41FB-43CE-FB15-43DDDE267ED9">
+<Column name="Online_Store_onlineStore_ID" id="36D80238-41FB-43CE-FB15-43DDDE267ED9">
 <createdBy>1705258</createdBy>
 <createdTime>2021-10-28 11:41:49 UTC</createdTime>
 <generatorID>A49E99B8-984B-BA46-4E42-D6F648509E3E</generatorID>
