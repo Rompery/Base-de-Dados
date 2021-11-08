@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3E7E802-678F-913E-3BE0-6BE0382A0E67" name="Online_Store">
+<createdBy>1705258</createdBy>
+<createdTime>2021-11-08 17:32:11 UTC</createdTime>
+<generatorID>4384D7D0-2190-FA21-9167-02FE2D1FFB1F</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="onlineStore_ID" id="BC6862DF-71EF-799F-8466-3E451CF9117B">
+<createdBy>1705258</createdBy>
+<createdTime>2021-11-08 17:32:11 UTC</createdTime>
+<generatorID>99D2E160-9584-B7CA-F078-E473C4DBBC70</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="15DCD53E-225A-66CB-F015-970873231902">
+<createdBy>1705258</createdBy>
+<createdTime>2021-11-08 17:32:11 UTC</createdTime>
+<generatorID>80D70809-D6D6-0740-3F42-1CC579A0DA80</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="link" id="DC208BB9-646B-0A82-3D8C-EFA534E8C109">
+<createdBy>1705258</createdBy>
+<createdTime>2021-11-08 17:32:11 UTC</createdTime>
+<generatorID>FAA6519E-92BF-D702-F3F2-A9A243EEA5C9</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4232810-416A-0CE5-0AE5-E6B633586492" name="Online_Store_PK">
+<createdBy>1705258</createdBy>
+<createdTime>2021-11-08 17:32:11 UTC</createdTime>
+<generatorID>63654704-F414-6BF3-F991-030960A02337</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC6862DF-71EF-799F-8466-3E451CF9117B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
