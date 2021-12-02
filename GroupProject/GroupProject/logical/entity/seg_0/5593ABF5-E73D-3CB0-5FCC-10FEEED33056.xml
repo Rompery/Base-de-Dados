@@ -4,7 +4,7 @@
 <createdTime>2021-10-25 17:32:56 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
+<item key="77743449-303F-AE57-CD57-94FF3FE76093" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2021-10-25 17:33:05 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
+<item key="77743449-303F-AE57-CD57-94FF3FE76093" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,20 +33,20 @@
 <createdTime>2021-10-25 17:33:18 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
+<item key="77743449-303F-AE57-CD57-94FF3FE76093" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>6000</dataTypeSize>
-<ownDataTypeParameters>6000,,</ownDataTypeParameters>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="rating" id="0734E1BC-92F3-159F-CEFC-7423A3E10265">
 <createdBy>1705258</createdBy>
 <createdTime>2021-10-28 11:40:49 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
+<item key="77743449-303F-AE57-CD57-94FF3FE76093" value="true"/>
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -59,14 +59,14 @@
 <generatorID>4BD0281A-F113-C73D-B90C-E3ADF2DD34EE</generatorID>
 <ownerDesignName>GroupProject</ownerDesignName>
 <engineerTo>
-<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
+<item key="77743449-303F-AE57-CD57-94FF3FE76093" value="true"/>
 </engineerTo>
 <referedAttribute>F92CBC19-E091-5D88-D8CE-857F9DACDFCA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -74,8 +74,9 @@
 <createdBy>ricar</createdBy>
 <createdTime>2021-10-25 17:33:17 UTC</createdTime>
 <ownerDesignName>GroupProject</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="642280CF-92D2-E353-ECF3-EF61D2A85577" value="true"/>
+<item key="77743449-303F-AE57-CD57-94FF3FE76093" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
