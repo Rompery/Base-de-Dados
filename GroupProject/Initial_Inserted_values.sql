@@ -128,7 +128,7 @@ insert into game(nome,rls_date)
 values('Frostpunk',to_date('2018-04-24','YYYY-MM-DD'));
 
 insert into game(nome,rls_date) 
-values('Doom',to_date('1995-04-30','YYYY-MM-DD'));
+values('Ultimate Doom',to_date('1995-04-30','YYYY-MM-DD'));
 
 insert into game(nome,rls_date) 
 values('Dead by Daylight',to_date('2016-06-14','YYYY-MM-DD'));
@@ -220,8 +220,55 @@ values (32,10);
 insert into game_genre(genre_genre_id,game_game_id)
 values (16,10);
 
+--insert game - online store
 
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(1,1,14.99,to_date('2021-03-04','YYYY-MM-DD'),'Loop Hero','Steam');
 
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(1,2,14.99,to_date('2021-03-04','YYYY-MM-DD'),'Loop Hero','Epic Games');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(2,1,59.99,to_date('2021-11-09','YYYY-MM-DD'),'Forza Horizon 5','Steam');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(3,1,19.99,to_date('2010-09-08','YYYY-MM-DD'),'Amnesia the dark descent','Steam');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(3,2,15.99,to_date('2020-04-30','YYYY-MM-DD'),'Amnesia the dark descent','Epic games');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(4,1,29.99,to_date('2018-04-24','YYYY-MM-DD'),'Frostpunk','Steam');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(4,2,27.99,to_date('2021-06-03','YYYY-MM-DD'),'Frostpunk','Epic games');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(5,1,4.99,to_date('1995-04-30','YYYY-MM-DD'),'Ultimate Doom','Steam');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(6,1,19.99,to_date('2016-06-14','YYYY-MM-DD'),'Dead by Daylight','Steam');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(6,2,19.99,to_date('2021-12-02','YYYY-MM-DD'),'Dead by Daylight','Epic games');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(7,1,24.99,to_date('2016-10-14','YYYY-MM-DD'),'The Jackbox party pack 8','Steam');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(7,2,23.99,to_date('2016-10-14','YYYY-MM-DD'),'The Jackbox party pack 8','Epic games');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(8,1,19.99,to_date('2015-02-17','YYYY-MM-DD'),'Hand of Fate','Steam');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(9,1,8.19,to_date('1998-11-08','YYYY-MM-DD'),'Half-Life','Steam');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(10,1,13.99,to_date('2010-11-30','YYYY-MM-DD'),'Super Meat Boy','Steam');
+
+insert into game_store(game_game_id,online_store_onlinestore_id,cost,price_date,game_name,store_name)
+values(10,2,14.99,to_date('2020-12-22','YYYY-MM-DD'),'Super Meat Boy','Epic games');
 
 
 
