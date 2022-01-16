@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76D076AB-2B5E-8E50-40B8-6200C4088313" name="Game">
+<createdBy>0emre</createdBy>
+<createdTime>2022-01-16 15:29:09 UTC</createdTime>
+<generatorID>0AA68982-47FE-AE18-CE82-0A56F332378A</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="game_ID" id="818A60E3-4502-EFE4-14D2-50B10A55D5BA">
+<createdBy>0emre</createdBy>
+<createdTime>2022-01-16 15:29:09 UTC</createdTime>
+<generatorID>F92CBC19-E091-5D88-D8CE-857F9DACDFCA</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="56AF6669-A8EE-FA16-937E-166A134F9E11">
+<createdBy>0emre</createdBy>
+<createdTime>2022-01-16 15:29:09 UTC</createdTime>
+<generatorID>26AA503A-1617-AC85-EAAB-45558229CC7E</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rls_date" id="33DDF5A4-AEAB-F139-F9AE-C0DDC285B42C">
+<createdBy>0emre</createdBy>
+<createdTime>2022-01-16 15:29:09 UTC</createdTime>
+<generatorID>2B75FF3E-BBC9-E5E9-D978-02695B742DEC</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_pst_review" id="8B6F54C2-898F-46E6-6504-EA4733F550B9">
+<createdBy>0emre</createdBy>
+<createdTime>2022-01-16 15:29:09 UTC</createdTime>
+<generatorID>6184E51E-559B-1EA0-31D4-53CFE3AEC598</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_ngt_review" id="3ED8BA97-DA54-1FCD-EF9A-8EF18A7717B7">
+<createdBy>0emre</createdBy>
+<createdTime>2022-01-16 15:29:09 UTC</createdTime>
+<generatorID>58FAEA60-855F-5A71-B853-60436F9E1349</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="success_rate" id="A040E95C-629A-81DE-BE94-77BFD4B97C99">
+<createdBy>0emre</createdBy>
+<createdTime>2022-01-16 15:29:09 UTC</createdTime>
+<generatorID>9AD080A0-4006-965C-672C-E2144C8DE744</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0.0</defaultValue>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23D02903-20A2-876C-E601-409F1ADF97D7" name="Game_PK">
+<createdBy>0emre</createdBy>
+<createdTime>2022-01-16 15:29:09 UTC</createdTime>
+<generatorID>102EB021-1DDD-4E36-36CC-FCDFA3790E91</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="818A60E3-4502-EFE4-14D2-50B10A55D5BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
