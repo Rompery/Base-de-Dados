@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9DEAD4D-2572-BB49-174C-5D61F734275A" name="Game">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>0AA68982-47FE-AE18-CE82-0A56F332378A</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="game_ID" id="CBE57AB4-7592-2CF6-5314-A52128169070">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>F92CBC19-E091-5D88-D8CE-857F9DACDFCA</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="0F3029CB-8F4B-1E49-9D51-085B9B57D9E6">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>26AA503A-1617-AC85-EAAB-45558229CC7E</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rls_date" id="FA7FC902-819C-EC8D-04B3-659D52E0C573">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>2B75FF3E-BBC9-E5E9-D978-02695B742DEC</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_pst_review" id="FD4B0DF5-22A0-A86D-7103-05C2825A6274">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>6184E51E-559B-1EA0-31D4-53CFE3AEC598</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_ngt_review" id="5EF7F2BD-51EE-D11E-E47B-07BAF24867A6">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>58FAEA60-855F-5A71-B853-60436F9E1349</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="success_rate" id="1CAD9295-20D1-960D-443C-7A221921130D">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>9AD080A0-4006-965C-672C-E2144C8DE744</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<defaultValue>0.0</defaultValue>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DBD1013-8535-E3C8-FE4E-273D9C59752B" name="Game_PK">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>102EB021-1DDD-4E36-36CC-FCDFA3790E91</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBE57AB4-7592-2CF6-5314-A52128169070"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

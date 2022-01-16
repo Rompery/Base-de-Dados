@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15E62E48-711C-EFEE-8F03-6CF19AFE856A" name="Game_List">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="game_list_id" id="EDAFFA00-6157-1681-FBE7-7FF10F9BD324">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Game_Genre_ID" id="B80B6E0F-6A08-14ED-7F98-BDB37029BAEA">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8ABF0B8-7403-E631-4566-656E17988C2A" referredColumn="38EA525E-4D2E-9FB4-7E5D-3CB8448C7BBC"/>
+</associations>
+</Column>
+<Column name="Game_Genre_Game_ID" id="CA358017-2B95-A349-FE13-04D6AFCD4CEB">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8ABF0B8-7403-E631-4566-656E17988C2A" referredColumn="31E6EA49-9E1A-F61A-FEFC-491F523047FB"/>
+</associations>
+</Column>
+<Column name="nome" id="51383C02-DC44-11CC-C3D8-1612E4BDB914">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genre" id="E619344B-5E6A-C07F-D860-ED6D253D7F39">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BA50EE9-6A33-9FD0-B782-8E86DE918754" name="Game_List_PK">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDAFFA00-6157-1681-FBE7-7FF10F9BD324"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E1937C5-3A8B-7E63-A1B6-958858204791" name="Game_List_Game_Genre_FK">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<ownerDesignName>GroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B80B6E0F-6A08-14ED-7F98-BDB37029BAEA"/>
+<colUsage columnID="CA358017-2B95-A349-FE13-04D6AFCD4CEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

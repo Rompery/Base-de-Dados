@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFF1BEB2-6F8B-9137-471D-83B93E5C887F" name="Review">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>5593ABF5-E73D-3CB0-5FCC-10FEEED33056</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="review_ID" id="A513C381-8936-6EB6-074A-1A5C4B3B077A">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>FA8C3F97-3A19-C212-A191-D8646F08532D</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="review" id="73ECBB17-A76A-15B6-DFE1-EC7678ADDED3">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>C31A8103-74AD-C26E-FEC8-683A8C5445A6</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6000</dataTypeSize>
+<ownDataTypeParameters>6000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="AD6A5163-394E-F34C-EE0B-1B8F878040E1">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>0734E1BC-92F3-159F-CEFC-7423A3E10265</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Game_game_ID" id="084D7037-29C8-74F9-598B-F4F2B927F043">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>606DD06B-42AF-7E5D-7E6E-F1A5AD5F0F9A</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BF65A04-D5DC-42F3-608D-89B14023D489" referredColumn="CBE57AB4-7592-2CF6-5314-A52128169070"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2E0CD52-6465-7C82-3219-B5F670A7D62F" name="Review_PK">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>BA990440-942F-6064-AE93-AA0EB8419CE4</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A513C381-8936-6EB6-074A-1A5C4B3B077A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70F9FFDC-71B9-86E7-FB9F-F7595CD99A65" name="Review_Game_FK">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>4BD0281A-F113-C73D-B90C-E3ADF2DD34EE</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="084D7037-29C8-74F9-598B-F4F2B927F043"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

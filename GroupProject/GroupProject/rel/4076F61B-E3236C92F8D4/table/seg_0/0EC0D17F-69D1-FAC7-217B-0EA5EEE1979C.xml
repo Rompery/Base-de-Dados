@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0EC0D17F-69D1-FAC7-217B-0EA5EEE1979C" name="Online_Store">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>4384D7D0-2190-FA21-9167-02FE2D1FFB1F</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="onlineStore_ID" id="76815F63-D7CA-45C9-5C7B-A6C3D8C30C61">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>99D2E160-9584-B7CA-F078-E473C4DBBC70</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="59B9521E-B3D5-0DC5-A864-5BF8CFE4053D">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>80D70809-D6D6-0740-3F42-1CC579A0DA80</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="link" id="422D38E4-12B8-07C1-57CA-9CED056D74BE">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>FAA6519E-92BF-D702-F3F2-A9A243EEA5C9</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B20E388-EA67-143A-C41A-C387D02A9DE0" name="Online_Store_PK">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>63654704-F414-6BF3-F991-030960A02337</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76815F63-D7CA-45C9-5C7B-A6C3D8C30C61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

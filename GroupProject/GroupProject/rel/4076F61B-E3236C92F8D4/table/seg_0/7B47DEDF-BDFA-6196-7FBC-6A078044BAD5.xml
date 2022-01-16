@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B47DEDF-BDFA-6196-7FBC-6A078044BAD5" name="Success_Calculation">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>B7C7BBD7-B289-039F-72DB-4E983309E0ED</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sc_ID" id="A9AD8651-9D66-B1E4-1A16-50C1057A2B98">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>E8D37FB7-938D-486A-BB4A-B8E85ECBC084</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Success_rate" id="9E699C35-00DB-8AD1-DEB0-BA881D20B2B8">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>C3905641-05D2-D6F7-4DCA-69D2EC07691B</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Game_game_ID" id="E6A4E1A0-E3F6-6043-F684-CCFC2B719891">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>A884610C-6F23-AD3C-9D32-404AB17CEF79</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A2CA8F3-2459-D18A-3017-8F49A8B1697C" referredColumn="CBE57AB4-7592-2CF6-5314-A52128169070"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F82F213F-5FA6-3ABF-6AA9-DB1D470D1205" name="Success_Calculation_PK">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>DACB06AA-34B3-3CEA-9824-767AE95A9B1B</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9AD8651-9D66-B1E4-1A16-50C1057A2B98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AA86C41-DD5C-DE78-07B3-BD41D41EFB0E" name="Success_Calculation_Game_FK">
+<createdBy>irembulut</createdBy>
+<createdTime>2022-01-16 16:20:23 UTC</createdTime>
+<generatorID>EAEE0257-75C1-78A4-BDC6-FE1F6254A1E8</generatorID>
+<ownerDesignName>GroupProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6A4E1A0-E3F6-6043-F684-CCFC2B719891"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
